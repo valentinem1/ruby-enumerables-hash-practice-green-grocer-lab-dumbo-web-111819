@@ -3,7 +3,7 @@ require 'pry'
 def consolidate_cart(cart)
   new_cart = {}
   cart.each do |element_hash|
-  
+  binding.pry
     element_name = element_hash.keys[0]
     element_stats = element_hash.values[0]
 
